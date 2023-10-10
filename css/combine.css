@@ -4328,12 +4328,18 @@ body {
 }
 
 .front #top {
-    background: var(--priamry) url(../images/technologies-bg.png) repeat 0 0;
-    -webkit-animation: 14s linear 0s normal none infinite animate;
+    background-color: var(--priamry) ;
+    background: url(../images/69f9e9afdabacb960185c5aaea3af619.gif);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 100% auto;
+    /* background: var(--priamry) url(../images/programming-background-collage.jpg) repeat 0 0; */
+    /* background: var(--priamry) url(../images/technologies-bg.png) repeat 0 0; */
+    /* -webkit-animation: 14s linear 0s normal none infinite animate;
     -moz-animation: 14s linear 0s normal none infinite animate;
     -ms-animation: 14s linear 0s normal none infinite animate;
     -o-animation: 14s linear 0s normal none infinite animate;
-    animation: 14s linear 0s normal none infinite animate
+    animation: 14s linear 0s normal none infinite animate */
 }
 
 @-webkit-keyframes animate {
@@ -4432,8 +4438,8 @@ body {
 }
 
 .is-sticky .top2 {
-    padding-top: 20px;
-    padding-bottom: 30px
+    padding-top: 10px;
+    padding-bottom: 10px
 }
 
 header {
@@ -5151,14 +5157,16 @@ header {
 .mission_next,
 .mission_prev {
     display: block;
-    width: 40px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 16px;
     position: absolute;
     left: 0;
     top: 50%;
     margin-top: -50px;
-    background: #000;
-    background: rgba(0, 0, 0, .2);
+    background: var(--secondary);
+    background: rgba(225, 225, 225, .2);
     z-index: 2;
     transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
@@ -5186,7 +5194,7 @@ header {
 
 .mission_next:hover,
 .mission_prev:hover {
-    background: #000
+    background: var(--secondary)
 }
 
 #mission .carousel-box {
@@ -5259,7 +5267,10 @@ header {
 
 .about1 {
     padding-bottom: 15px;
-    padding-top: 30px
+    padding: 10px;
+    padding-top: 30px;
+    height: 100%;
+    /* box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25); */
 }
 
 .about1 a {
@@ -6634,7 +6645,7 @@ h5 {
     font-weight: 700;
     padding: 12px 20px;
     text-decoration: none;
-    border-radius: 0;
+    border-radius: 8px !important;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     margin-top: 0;
@@ -6642,7 +6653,7 @@ h5 {
     text-transform: uppercase;
     background: 0 0;
     position: relative;
-    border: 3px solid #fff;
+    border: 1px solid #fff;
     letter-spacing: 1px;
     margin: 0 5px
 }
@@ -7394,7 +7405,7 @@ yjsg-round-progress {
 }
 
 #top2.top2_wrapper {
-    height: 101px
+    height: 85px
 }
 
 #backtotop {
@@ -7467,8 +7478,9 @@ body #backtotop a {
 
 .custom-box {
     box-sizing: border-box;
-    padding-top: 10px;
-    margin-bottom: 10px
+    padding: 0 10px;
+    /* box-shadow: 0px 4.6213px 12.93963px 0px rgba(0, 0, 0, 0.25); */
+    /* height: 100%; */
 }
 
 .custom-box a {
@@ -7489,6 +7501,10 @@ body #backtotop a {
     fill: transparent
 }
 
+/* .custom-box svg{
+    left: 10px;
+    width: calc(100% - 10px);
+} */
 .macs.animated {
     padding-top: 10px
 }
