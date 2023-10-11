@@ -87,7 +87,7 @@
     padding: 9px 12px;
     font-weight: 700;
     color: #4c4b4b;
-    border-radius: 0;
+    border-radius: 8px !important;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     text-decoration: none;
@@ -109,8 +109,8 @@
 
 #filters.pagination li a.selected {
     color: #fff;
-    background: #000;
-    border-color: #000
+    background: var(--secondary);
+    border-color: var(--secondary)
 }
 
 #isotope-items {}

@@ -4394,7 +4394,7 @@ body {
 
 .custom-layer {
     height: inherit;
-    background: rgba(53, 55, 62, .6)
+    background: rgba(8, 85, 86, .7)
 }
 
 .support-fixed.front #top {
@@ -4402,12 +4402,16 @@ body {
 }
 
 .not-front #top {
-    background: var(--priamry) url(../images/technologies-bg.png) repeat 0 0;
-    -webkit-animation: 14s linear 0s normal none infinite animate;
+    background: var(--priamry) url(../images/69f9e9afdabacb960185c5aaea3af619.gif) no-repeat 0 0;
+    background-position: center;
+    background-size: 100% auto;
+    height: auto;
+    width: 100%;
+    /* -webkit-animation: 14s linear 0s normal none infinite animate;
     -moz-animation: 14s linear 0s normal none infinite animate;
     -ms-animation: 14s linear 0s normal none infinite animate;
     -o-animation: 14s linear 0s normal none infinite animate;
-    animation: 14s linear 0s normal none infinite animate
+    animation: 14s linear 0s normal none infinite animate */
 }
 
 .support-fixed.not-front #top {
@@ -5261,18 +5265,22 @@ header {
 
 #about {
     position: relative;
-    background: #fff;
+    background: #f7f8f9;
     padding: 50px 0
 }
-
+.about-list{
+    display: flex;
+    flex-wrap: wrap;
+}
 .about1 {
     padding-bottom: 15px;
     padding: 10px;
-    padding-top: 30px;
+    padding-top: 70px;
     height: 100%;
-    /* box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25); */
+    background-color: var(--white);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+    
 }
-
 .about1 a {
     display: block;
     text-decoration: none;
@@ -5292,7 +5300,11 @@ header {
     transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
     -webkit-transition: all .3s ease-out;
-    -o-transition: all .3s ease-out
+    -o-transition: all .3s ease-out;
+    position: absolute;
+    top: -52px;
+    left: 50%;
+    transform: translate(-50%, 0px);
 }
 
 .about1 a:hover .c1 {
@@ -5315,8 +5327,8 @@ header {
 }
 
 .about1 a .txt1 {
-    color: #35373e;
-    font-size: 12px;
+    color: var(--secondary);
+    font-size: 16px;
     font-family: Montserrat;
     letter-spacing: 1px;
     background: url(../images/kand2.png) center bottom no-repeat;
@@ -5385,7 +5397,8 @@ header {
     position: relative;
     overflow: hidden;
     display: table-cell;
-    width: 60%
+    width: 60%;
+    background: #f7f8f9;
 }
 
 #services2 .left_box {
@@ -5397,7 +5410,7 @@ header {
     overflow: hidden;
     display: table-cell;
     width: 40%;
-    background: url(../images/img1.jpg) center center no-repeat;
+    background: url(../images/web-development.png) center center no-repeat;
     background-size: cover
 }
 
@@ -5487,6 +5500,53 @@ header {
     letter-spacing: 2px;
     text-transform: uppercase
 }
+.progress-section {
+    width: 100%;
+    max-width: 80%;
+    border-radius: 15px;
+    background: var(--priamry-gradient);
+    padding: 1rem 2rem;
+    margin: 0 auto;
+}
+.progress-section .task-progress {
+    margin: 1.5rem 0;
+}
+.progress-section .task-progress p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    font-family: sans-serif;
+}
+.progress-section span {
+    color: var(--white);
+}
+.progress-section .progress {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    height: 10px;
+}
+.progress-section .progress::-webkit-progress-bar {
+    background-color: #f0f0f0;
+}
+.progress-section .progress::-webkit-progress-bar, .progress-section .progress::-webkit-progress-value {
+    border-radius: 10px;
+}
+.progress-section .progress::-moz-progress-bar {
+    border-radius: 10px;
+}
+.progress-section .progress1::-webkit-progress-value {
+    background: #56b6ff;
+}
+.progress-section .progress2::-webkit-progress-value {
+    background: #ffb453;
+}
+.progress-section .progress3::-webkit-progress-value {
+    background: #3fff76;
+}
 
 .yjsg-round-progress {
     width: 155px;
@@ -5512,8 +5572,8 @@ header {
 #what .left_box_wrapper {
     position: relative;
     overflow: hidden;
-    display: table-cell;
-    width: 50%;
+    /* display: table-cell; */
+    width: 100%;
     background-size: cover
 }
 
@@ -5524,8 +5584,8 @@ header {
 #what .right_box_wrapper {
     position: relative;
     overflow: hidden;
-    display: table-cell;
-    width: 50%;
+    /* display: table-cell; */
+    width: 100%;
     vertical-align: middle
 }
 
@@ -5651,7 +5711,13 @@ header {
 
 .features1 {
     position: relative;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    border: 1px solid var(--secondary);
+    padding: 20px;
+    background: var(--light);
+    border-radius: 2px;
+    height: 80%;
+    margin-top: 40px;
 }
 
 .features1 .ic1 {
@@ -6050,8 +6116,10 @@ header {
 
 .tweets .tweets_inner {
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px 10%;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
 }
 
 .tweets .tweets_inner .c1 {
@@ -6284,7 +6352,18 @@ header {
 .bg1 {
     background-image: url(../images/parallax1.jpg);
     filter: brightness(0.2);
+    /* position: relative; */
 }
+/* .bg1 .overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    background: rgba(8, 85, 86, .7);
+    height: 100%;
+    width: 100%;
+} */
 
 .navbar_ {
     margin: 0;
@@ -6846,7 +6925,7 @@ h5 {
     color: #8c8c8c;
     background: #fff;
     border: 1px solid #f4f4f4;
-    border-radius: 5px;
+    border-radius: 8px !important;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     font-style: italic
@@ -6911,7 +6990,8 @@ h5 {
     font-weight: 700;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 0;
+    border-radius: 8px !important;
+    width: 100% !important;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border: 2px solid var(--secondary);
@@ -7477,6 +7557,7 @@ body #backtotop a {
 }
 
 .custom-box {
+    margin-top: 70px;
     box-sizing: border-box;
     padding: 0 10px;
     /* box-shadow: 0px 4.6213px 12.93963px 0px rgba(0, 0, 0, 0.25); */
@@ -7538,7 +7619,7 @@ body #backtotop a {
     overflow: hidden;
     padding: 0;
     position: relative;
-    border-top: solid 1px #000
+    /* border-top: solid 1px #000 */
 }
 
 #examples:hover {
@@ -7708,7 +7789,7 @@ a[title] {
     padding: 9px 12px 7.5px;
     font-weight: 700;
     color: var(--secondary);
-    border-radius: 0;
+    border-radius: 8px !important;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     text-decoration: none;
@@ -7915,4 +7996,14 @@ a[title] {
     .lp-img{
         width: 100%;
     }
+}
+
+#vapp{
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px 30px;
+    background: #f7f8f9;
+    width: 70%;
+    margin: 40px auto 20px;
+    border-radius: 10px;
 }
