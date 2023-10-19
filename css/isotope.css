@@ -80,7 +80,7 @@
     margin-top: 10px
 }
 
-#filters li a {
+#filters li a, .project-btn {
     display: inline-block;
     background: #fff;
     border: 2px solid #4c4b4b;
@@ -101,7 +101,7 @@
     -o-transition: all .3s ease-out
 }
 
-#filters li a:hover {
+#filters li a:hover .project-btn:hover {
     background: var(--secondary);
     color: #fff;
     border-color: var(--secondary)
@@ -246,3 +246,45 @@
     color: #fff;
     background: #b75491
 }
+.project-detail-modal{
+/* overflow: hidden; */
+
+}
+.project-detail-modal .modal-dialog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+.project-detail-modal .modal-body{
+background-color: var(--secondary);
+color: #fff;
+border-radius: 5px;
+text-align: center;
+    padding-top: 26px;
+}
+.project-detail-modal .close{
+    margin-right: 6px;
+    margin-top: 1px;
+    /* color: #fff; */
+    /* background: white; */
+    z-index: 1;
+    position: relative;
+    font-size: 30px;  margin-right: 9px;
+    margin-top: 3px;
+    /* color: #fff; */
+}
+
+.fade-scale {
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+  }
+  
+  .fade-scale.in {
+    opacity: 1;
+    transform: scale(1);
+  }
