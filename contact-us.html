@@ -110,75 +110,70 @@
                     CONTACT US
                 </div>
                 <div id="vapp">
-                    <div data-v-068db535="" class="col-sm-8">
-                        <div data-v-068db535="" class="content-part">
-                            <div data-v-068db535="" id="note" style="display: none;">
-                                <div data-v-068db535="" class="notification_ok">
-                                    <div data-v-068db535="" role="alert" class="alert alert-success">
+                    <div class="col-sm-8">
+                        <div class="content-part">
+                            <div id="note" style="display: none;">
+                                <div class="notification_ok">
+                                    <div role="alert" class="alert alert-success">
                                         Your message has been sent. Thank you!
-                                    </div> <br data-v-068db535=""> <a data-v-068db535="" href="javascript:void(0)">send
+                                    </div> <br> <a href="javascript:void(0)">send
                                         another request</a>
                                 </div>
                             </div>
-                            <div data-v-068db535="" id="fields">
-                                <form data-v-068db535="" id="ajax-contact-form" class="form-horizontal">
-                                    <div data-v-068db535="" class="row">
-                                        <div data-v-068db535="" class="col-sm-6">
-                                            <div data-v-068db535="" class="form-group"><label data-v-068db535=""
-                                                    for="inputName">Your Name</label> <input data-v-068db535=""
-                                                    type="text" id="inputName" name="name" value="Full Name"
+                            <div id="fields">
+                                <div class="form-horizontal ajax-contact-form">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group"><label for="inputName">Your Name</label> <input
+                                                    type="text" id="inputName" name="name" value=""
                                                     placeholder="Full Name" class="form-control" aria-required="true"
                                                     aria-invalid="false">
-                                                <div data-v-068db535="" class="is-danger" style="display: none;"></div>
+                                                <div class="is-danger" style="display: none;"></div>
                                             </div>
                                         </div>
-                                        <div data-v-068db535="" class="col-sm-6">
-                                            <div data-v-068db535="" class="form-group"><label data-v-068db535=""
-                                                    for="inputEmail">Email</label> <input data-v-068db535="" type="text"
-                                                    id="inputEmail" name="email" placeholder="E-mail address"
-                                                    class="form-control" aria-required="true" aria-invalid="false">
-                                                <div data-v-068db535="" class="is-danger" style="display: none;"></div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group"><label for="inputEmail">Email</label> <input
+                                                    type="text" id="inputEmail" name="email"
+                                                    placeholder="E-mail address" class="form-control"
+                                                    aria-required="true" aria-invalid="false">
+                                                <div class="is-danger" style="display: none;"></div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div data-v-068db535="" class="row">
-                                        <div data-v-068db535="" class="col-sm-12">
-                                            <div data-v-068db535="" class="form-group"><label data-v-068db535=""
-                                                    for="inputSubject">Subject</label> <input data-v-068db535=""
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group"><label for="inputSubject">Subject</label> <input
                                                     type="text" id="inputSubject" name="subject" placeholder="Subject"
                                                     class="form-control" aria-required="true" aria-invalid="false">
-                                                <div data-v-068db535="" class="is-danger" style="display: none;"></div>
+                                                <div class="is-danger" style="display: none;"></div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div data-v-068db535="" class="row">
-                                        <div data-v-068db535="" class="col-sm-12">
-                                            <div data-v-068db535="" class="form-group"><label data-v-068db535=""
-                                                    for="inputMessage">Your Message</label> <textarea data-v-068db535=""
-                                                    rows="10" id="inputMessage" name="message" placeholder="Message"
-                                                    class="form-control" aria-required="true"
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group"><label for="inputMessage">Your Message</label>
+                                                <textarea rows="10" id="inputMessage" name="message"
+                                                    placeholder="Message" class="form-control" aria-required="true"
                                                     aria-invalid="false"></textarea>
-                                                <div data-v-068db535="" class="is-danger" style="display: none;"></div>
+                                                <div class="is-danger" style="display: none;"></div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div data-v-068db535="" class="row" style="padding-bottom: 12px;">
-                                        <div data-v-068db535="" class="col-sm-12">
-                                            <div data-v-068db535="" id="recaptcha"
-                                                data-sitekey="6LdJMrIUAAAAAFwEdAudz8dWKzOQY7MFYcC-Dy41"
+                                    <div class="row" style="padding-bottom: 12px;">
+                                        <div class="col-sm-12">
+                                            <div id="recaptcha"
                                                 class="g-recaptcha"></div>
-                                            <div data-v-068db535="" class="is-danger" style="display: none;"></div>
+                                            <div class="is-danger" style="display: none;"></div>
                                         </div>
-                                    </div> <input data-v-068db535="" type="hidden" name="recapchaToken"
-                                        id="recapchaToken">
-                                    <div data-v-068db535="" role="alert" class="alert alert-danger"
-                                        style="display: none;">
+                                    </div> <input type="hidden" name="recapchaToken" id="recapchaToken">
+                                    <div role="alert" class="alert alert-danger" style="display: none;">
                                         Fail
-                                    </div> <button data-v-068db535="" type="submit" class="btn-default btn-cf-submit">
+                                    </div>
+                                    <button class="btn-default btn-cf-submit" onclick="sendContacteMail()">
                                         Send message
-                                        <i data-v-068db535="" class="fas fa-spinner fa-pulse"
-                                            style="display: none;"></i></button>
-                                </form>
+                                        <i class="fas fa-spinner fa-pulse" style="display: none;"></i>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -264,6 +259,59 @@
             <i class="fa fa-chevron-up" aria-hidden="true"></i>
         </a>
     </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+
+function sendContacteMail() {
+
+var username = document.querySelector("#inputName").value;
+var email = document.querySelector("#inputEmail").value;
+var subject = document.querySelector("#inputSubject").value;
+var message = document.querySelector("#inputMessage").value;
+      // Check if required fields are not empty
+  if (!username || !email || !subject || !message) {
+    alert("Please fill out all fields");
+    return; // Stop execution if fields are not filled
+  }
+
+  (function() {
+    emailjs.init('z0znU9oj6fwBsdxKA');
+  })();
+
+
+  var params = {
+    username: username,
+    email: email,
+    subject: subject,
+    message: message,
+  };
+  var servicesID = "service_mail";
+  var templateID = "template_kzqj58s";
+
+  emailjs.send(servicesID, templateID, params)
+    .then(res => {
+      alert("Email send successfuly");
+      debugger
+      resetContactForm(); // Call the function to reset the form
+    })
+    .catch(error => {
+      console.error('Error sending email:', error);
+    });
+}
+
+function resetContactForm() {
+  document.querySelector("#inputName").value = "";
+  document.querySelector("#inputEmail").value = "";
+  document.querySelector("#inputSubject").value = "";
+  document.querySelector("#inputMessage").value = "";
+}
+
+  </script>
+
+
 </body>
 
 <!-- Mirrored from www.finchwebtech.com/contact-us by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Oct 2023 12:36:15 GMT -->

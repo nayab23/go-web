@@ -6905,19 +6905,19 @@ h5 {
     padding-bottom: 10px
 }
 
-#ajax-contact-form .form-group {
+.ajax-contact-form .form-group {
     margin-left: 0;
     margin-right: 0
 }
 
-#ajax-contact-form .form-group label {
+.ajax-contact-form .form-group label {
     color: #525252;
     font-weight: 400;
     font-style: italic;
     display: none
 }
 
-#ajax-contact-form .form-control {
+.ajax-contact-form .form-control {
     height: 38px;
     padding: 8px 12px;
     font-size: 14px;
@@ -6931,52 +6931,52 @@ h5 {
     font-style: italic
 }
 
-#ajax-contact-form .form-control:focus {
+.ajax-contact-form .form-control:focus {
     border-color: #d0d0d0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(153, 153, 153, .3);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(153, 153, 153, .3)
 }
 
-#ajax-contact-form textarea.form-control {
+.ajax-contact-form textarea.form-control {
     height: auto
 }
 
-#ajax-contact-form .form-group.capthca {
+.ajax-contact-form .form-group.capthca {
     float: left;
     margin-right: 20px
 }
 
-#ajax-contact-form .form-group.capthca input {
+.ajax-contact-form .form-group.capthca input {
     width: 170px
 }
 
-#ajax-contact-form .form-group.img {
+.ajax-contact-form .form-group.img {
     float: left
 }
 
-#ajax-contact-form .form-group.img img {
+.ajax-contact-form .form-group.img img {
     width: 170px;
     height: 38px
 }
 
-#ajax-contact-form .checkbox {
+.ajax-contact-form .checkbox {
     font-style: italic;
     padding-bottom: 15px
 }
 
-#ajax-contact-form #inputName {
+.ajax-contact-form #inputName {
     background: url(../images/n1.png) right center no-repeat #fff
 }
 
-#ajax-contact-form #inputEmail {
+.ajax-contact-form #inputEmail {
     background: url(../images/e1.png) right center no-repeat #fff
 }
 
-#ajax-contact-form #inputSubject {
+.ajax-contact-form #inputSubject {
     background: url(../images/s1.png) right center no-repeat #fff
 }
 
-#ajax-contact-form #inputMessage {
+.ajax-contact-form #inputMessage {
     background: url(../images/m1.png) right 15px no-repeat #fff
 }
 
@@ -7019,18 +7019,18 @@ h5 {
     padding-bottom: 10px
 }
 
-#ajax-contact-form3 .form-group {
+.ajax-contact-form3 .form-group {
     margin-left: 0;
     margin-right: 0
 }
 
-#ajax-contact-form3 .form-group label {
+.ajax-contact-form3 .form-group label {
     color: #c4c4c4;
     font-weight: 400;
     display: none
 }
 
-#ajax-contact-form3 .form-control {
+.ajax-contact-form3 .form-control {
     height: 38px;
     padding: 8px 12px;
     font-size: 14px;
@@ -7043,30 +7043,30 @@ h5 {
     -webkit-border-radius: 0
 }
 
-#ajax-contact-form3 .form-control:focus {
+.ajax-contact-form3 .form-control:focus {
     border-color: #000;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px transparent;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px transparent
 }
 
-#ajax-contact-form3 textarea.form-control {
+.ajax-contact-form3 textarea.form-control {
     height: auto
 }
 
-#ajax-contact-form3 .form-group.capthca {
+.ajax-contact-form3 .form-group.capthca {
     float: left;
     margin-right: 20px
 }
 
-#ajax-contact-form3 .form-group.capthca input {
+.ajax-contact-form3 .form-group.capthca input {
     width: 170px
 }
 
-#ajax-contact-form3 .form-group.img {
+.ajax-contact-form3 .form-group.img {
     float: left
 }
 
-#ajax-contact-form3 .form-group.img img {
+.ajax-contact-form3 .form-group.img img {
     width: 170px;
     height: 38px
 }
@@ -7462,8 +7462,8 @@ yjsg-round-progress {
     font-family: Montserrat
 }
 
-#ajax-contact-form .checkbox,
-#ajax-contact-form .form-control {
+.ajax-contact-form .checkbox,
+.ajax-contact-form .form-control {
     font-style: normal
 }
 
