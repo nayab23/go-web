@@ -8007,3 +8007,32 @@ a[title] {
     margin: 40px auto 20px;
     border-radius: 10px;
 }
+.project-card .txt1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    padding-bottom: 10px
+}
+
+.project-card .txt2 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #747373;
+    letter-spacing: 2px
+}
+
+.project-card {
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid var(--secondary);
+    padding: 20px;
+    /* background: var(--light); */
+    border-radius: 2px;
+    height: 90%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
